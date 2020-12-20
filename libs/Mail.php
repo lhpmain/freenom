@@ -45,6 +45,10 @@ class Mail
                 $host = 'smtp.163.com';
                 $secure = 'ssl';
                 $port = 465;
+            } else if (stripos($username, '@lhpcn.ml') !== false) {
+                $host = 'smtp.exmail.qq.com';
+                $secure = 'ssl';
+                $port = 465;
             } else if (stripos($username, '@vip.163.com') !== false) {
                 $host = 'smtp.vip.163.com';
                 $secure = 'ssl';
