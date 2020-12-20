@@ -105,11 +105,11 @@ class Mail
          * 被密送者知道所有的被抄送者，但不知道其它的被密送者。
          * 抄送好比@，密送好比私信。
          */
-//        self::mail()->addCC('cc@example.com'); // 抄送
-//        self::mail()->addBCC('bcc@example.com'); // 密送
+        //   self::mail()->addCC('cc@example.com'); // 抄送
+        //    self::mail()->addBCC('bcc@example.com'); // 密送
 
         // 添加附件，参数2选填
-//        self::mail()->addAttachment('README.md', '说明.txt');
+        //   self::mail()->addAttachment('README.md', '说明.txt');
 
         // 内容
         self::mail()->Subject = $subject; // 标题
